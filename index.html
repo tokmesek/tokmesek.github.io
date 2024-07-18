@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 웹페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+        }
+        .main h1 {
+            text-align: center;
+        }
+        .posts {
+            margin: 20px 0;
+        }
+        .post {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: #ccc 1px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>내 개인 웹 페이지</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#posts">Posts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="home" class="main">
+            <h1>Welcome to My Page</h1>
+            <p>이곳은 나의 개인 웹 페이지입니다. 다양한 컨텐츠와 정보를 공유합니다.</p>
+        </section>
+
+        <section id="about" class="main">
+            <h2>About Me</h2>
+            <p>저는 [자기 소개]</p>
+        </section>
+
+        <section id="posts" class="main">
+            <h2>Recent Posts</h2>
+            <div class="posts">
+                <div class="post">
+                    <h3>Post Title 1</h3>
+                    <p>포스트 내용 1</p>
+                </div>
+                <div class="post">
+                    <h3>Post Title 2</h3>
+                    <p>포스트 내용 2</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="main">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>내 개인 웹 페이지 &copy; 2024</p>
+    </footer>
+</body>
+</html>
